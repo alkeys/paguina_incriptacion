@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>encriptación</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<img class="logo" src="imagenes/Vector.png" alt="logo">
+</header>
+
+<main>
+    <div class="caja_de_texto_incrip">
+    <textarea id="area_texto" autofocus placeholder="Ingrese el texto aquí" class="texto_input"></textarea>
+    </div>
+
+    <div class="salida_texto">
+    <img class="dibujo" src="imagenes/Muñeco.png">
+        <h1 class="mensaje_de_encontrado" >Ningún mensaje fue encontrado</h1>
+        <h1  class="texto_2 mensaje_de_encontrado"  >Ingresa el texto que desees encriptar o desencriptar.</h1>
+    </div>
+
+    <div class="caja_botones">
+        <label class="label_de_abiso">Solo letras minúsculas y sin acentos</label>
+     <ul>
+         <li> <button  onclick="incriptar()" class="boton_incrip" >Incriptar</button> </li>
+         <li> <button onclick="desincriptar()" class="boton_desinc">Desencriptar</button> </li>
+     </ul>
+    </div>
+
+<footer></footer>
+</main>
+</body>
+</html>
+
+<script src="main.js" ></script>
