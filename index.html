@@ -18,16 +18,22 @@
     </div>
 
     <div class="salida_texto">
-    <img class="dibujo" src="imagenes/Muñeco.png">
-        <h1 class="mensaje_de_encontrado" >Ningún mensaje fue encontrado</h1>
-        <h1  class="texto_2 mensaje_de_encontrado"  >Ingresa el texto que desees encriptar o desencriptar.</h1>
+    <img id="camp0" class="dibujo" src="imagenes/Muñeco.png">
+        <h1 id="camp1" class="mensaje_de_encontrado" >Ningún mensaje fue encontrado</h1>
+        <h1  id="camp2" class="texto_2 mensaje_de_encontrado"  >Ingresa el texto que desees encriptar o desencriptar.</h1>
     </div>
+
+    <div id="oculto" class="salida_texto" >
+        <textarea id="salida_" class="texto_input texto_incriptado">ssss</textarea>
+        <button id="copiar" onclick="home(3)" class="boton_incrip">Copiar</button>
+    </div>
+
 
     <div class="caja_botones">
         <label class="label_de_abiso">Solo letras minúsculas y sin acentos</label>
      <ul>
-         <li> <button  onclick="incriptar()" class="boton_incrip" >Incriptar</button> </li>
-         <li> <button onclick="desincriptar()" class="boton_desinc">Desencriptar</button> </li>
+         <li> <button onclick="home(1)" class="boton_incrip"  >Incriptar</button> </li>
+         <li> <button onclick="home(2)" class="boton_desinc">Desencriptar</button> </li>
      </ul>
     </div>
 

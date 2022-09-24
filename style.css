@@ -46,7 +46,21 @@ width: 100%;
     border-radius: 32px;
 }
 
-
+#oculto{
+    display: none;
+}
+.texto_incriptado{
+    width: 361px;
+    height: 638px;
+    margin: 22px 16px 3px;
+    position: initial;
+    color: rgba(0, 0, 0, 0.7);
+}
+#copiar{
+    background: #f1f0f0;
+    color: #0A3871;
+   margin: 0 35px 0 ;
+}
 
 /*imagen del dibujo*/
 .dibujo{
@@ -117,7 +131,6 @@ width: 100%;
 .boton_incrip:hover{
     box-shadow: 2px 4px 1px;
     transition: 1s;
-
 }
 
 .boton_desinc{
